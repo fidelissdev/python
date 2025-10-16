@@ -1,20 +1,20 @@
-import fidelis
+# import calculo
+# importando de outro jeito:
+from calculo import dobro, triplo
 
-def dobro(numero):
-    return int(numero) * 2
+print("ola mundo agora no vscode \n")
+print("programa dos calculos")
+print("-" * 50)
 
-x = input("Digite o número para ser duplicado: ")
+x = input("Digite o numero e vou dizer o dobro:")
 
-dobro = fidelis.dobro(x)
+dobro = dobro(x)
 
-print(f"O dobro de {x} é {dobro}")
+print(f"o dobro de {x} é {dobro}")
 
 
-def triplo(numero):
-    return int(numero) * 3
+y = input("Agora, digite outro numero e vou dizer o triplo")
 
-x = input("Digite o número para ser triplicado: ")
+triplo = triplo(y)
 
-triplo = fidelis.triplo(x)
-
-print(f"O triplo de {x} é {triplo}")
+print(f"O trplo de {y} é {triplo}")
